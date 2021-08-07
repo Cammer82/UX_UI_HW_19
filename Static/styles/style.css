@@ -31,7 +31,7 @@ body {
     text-align: center;
     font-size: 34px;
     padding-top: 15%;
-    color: white;
+    color: whitesmoke;
     font-family: 'Shadows Into Light',cursive;
 }
 
@@ -324,7 +324,6 @@ a{
 }
 
 .fa-linkedin {
-    background: #007bb5;
     color: white;
 }
 
