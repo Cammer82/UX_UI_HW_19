@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="./Static/styles/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +11,7 @@
     <title>Camerons portfolio</title>
   </head>
   <body>
+    
     <nav class="nav-bar">
       <div class="nav-link-left">
         <a class="nav-link" href="index.html" >work</a>
@@ -24,7 +23,7 @@
         <a class="nav-link">contact</a>
       </div>
     </nav>
-     
+   
           
     <main>
         <!--contact-form-container------------------->
@@ -35,7 +34,7 @@
             <!--heading---------->
             <div class="c-heading">
             <h1>Get In Touch</h1>
-            <p>Call Or Email Me if you have any questions!</p>
+            <p>Please Email Me if you have any questions!</p>
             </div>
             <!--inputs------------------>
             <div class="c-inputs">
@@ -44,7 +43,21 @@
             <input type="email" placeholder="Email@gmail.com"/>
             <textarea name="message" placeholder="Write Message"></textarea>
             <!--sumbit-btn----------->
-            <button>SEND</button>
+           
+           
+            <html>
+            <body>
+            
+             <button id="myBtn">SEND</button>
+            
+            <script>
+            document.getElementById("myBtn").addEventListener("click", function() {
+              alert("THANK YOU!");
+            });
+            </script>
+            
+            </body>
+            </html>
             </form>
             </div>
                 

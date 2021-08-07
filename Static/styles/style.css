@@ -9,9 +9,8 @@ html{
 }
 
 body {
-    background-color: #350626;
+    background-color: #1F0617;
 }
-
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -50,13 +49,13 @@ body {
 
 .FCClabel {
     text-align: left;
-    color:pink;
+    color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
 }
 .FCCBody {
     text-align: left;
-    color:pink;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
@@ -68,12 +67,12 @@ body {
 }
 .Mindfullable {
     text-align: left;
-    color:pink;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
 }
 .MindfulBody {
-    color:pink;
+    color:white;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
@@ -84,33 +83,34 @@ body {
     margin-bottom: 25px;
 }
 .WGEFLable {
-    color:pink;
+    color: white;
     text-align: left;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
 }
 .WGEFBody {
-    color:pink;
+    color:white;
     text-align:left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     margin-bottom: 20%;
 }
 .footer {
+    display: flex;
+    flex-direction: row;
     margin-top: 50%;
     text-align: center;
     background-color: #D610DD;
 }
 .contactbuttons {
-  color: white;
   padding: 16px 32px;
-  display: inline-block;
-  align-items: center;
   font-size: 16px;
   margin: 4px 2px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
+  font-weight: bold;
+ }
+
 .project-images {
     height: 200px;
     width: auto;
@@ -185,7 +185,6 @@ h5 {
 body{
 	margin:0px;
 	padding: 0px;
-	background-color: #FFFFFF;
 }
 a{
 	text-decoration:none;
@@ -310,5 +309,11 @@ a{
 	}
 	
 }
- 
+
+#myBtn {
+    background-color: violet;
+}
+
+.alert {
+   background-color: #D610DD;
  
