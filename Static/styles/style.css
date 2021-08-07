@@ -152,7 +152,7 @@ h5 {
 .aboutMe {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
-    color:pink;
+    color:whitesmoke;
     margin-top: 10%;
     margin-left: 25%;
     margin-right: 25%;
@@ -314,6 +314,18 @@ a{
     background-color: violet;
 }
 
-.alert {
-   background-color: #D610DD;
- 
+.fa {
+    margin-left: 500px;
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
